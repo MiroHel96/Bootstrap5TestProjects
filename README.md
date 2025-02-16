@@ -1,2 +1,2 @@
 # Bootstrap5TestProjects
-My website projects for bootstrap
+This repository includes my bootstrap5 website projects
