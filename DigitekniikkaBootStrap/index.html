@@ -16,7 +16,8 @@
   </style>
   </head>
   <body>
-    <!---Nav Bar-->
+
+  <!---Nav Bar-->
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark border-warning border-bottom sticky-top ">
       <div class="container-fluid">
@@ -50,32 +51,31 @@
       </div>
     </nav>
 
-    <!--Everything else --->
+  <!--Everything else --->
 
-    <main class="bg-dark">
+  <main class="bg-dark">
 
 
-      <!--Banner/intro text and image-->
-<section>
-      <div class="col container-fluid bg-dark text-center ">
-        <div class="col">
-          <h1 class="display-1 text-warning d-flex justify-content-center pb-5 pt-5 ">
-            Solar Fitness 
-          </h1>
+  <!--Banner/intro teksti ja kuva-->
+  <section>
+        <div class="col container-fluid bg-dark text-center ">
+          <div class="col">
+            <h1 class="display-1 text-warning d-flex justify-content-center pb-5 pt-5 ">
+              Solar Fitness 
+            </h1>
+              </div>
+          <div class="col">
+              <img
+                class="img-thumbnail mb-5  "
+                src="Kuntosali\keskukset\Photo by Tima Miroshnichenko httpswww.pexels.comphotoweight-plates-in-close-up-shot-6389853.jpg"
+                alt="kuntosali, jossa levypainoja"
+              />
             </div>
-        <div class="col">
-            <img
-              class="img-thumbnail mb-5  "
-              src="Kuntosali\keskukset\Photo by Tima Miroshnichenko httpswww.pexels.comphotoweight-plates-in-close-up-shot-6389853.jpg"
-              alt="kuntosali, jossa levypainoja"
-            />
           </div>
-        </div>
-  
-</section>
+  </section>
 
-      <!-- Jumbotron -->
-      <!--About us --->
+  <!-- Jumbotron / kuntosalin esittely/tarina-->
+
   <section>
       <div class="bg-warning text-dark mt-5 mb-5 text-center pb-5 pt-5">
         <h2 class="text-center display-2">Enemmän kuin kuntosali</h2>
@@ -86,13 +86,12 @@
         <p class="">
           Meidän tarinamme lähti pitkän haaveilun jälkeen toteutukseen ja se kannatti. Olemme avanneet jo kolme kuntosalia pääkaupunkiseudulle ja tulevaisuudessa tavoitteemme on laajentaa toimintaamme koko Suomen alueella.
         </p>
-        
       </div>
+  </section>
 
-    </section>
-        <!--Kuva -->
+   <!--Kuva, lisäämään sivulle visuaalisuutta -->
      
-    <section>
+  <section>
         <div class="container-fluid">
           <img
             src="Kuntosali\keskukset\Photo by Ivan Samkov httpswww.pexels.comphotoblack-weight-plates-4164451.jpg"
@@ -100,107 +99,81 @@
             class="img-thumbnail mt-5 mb-5 "
           />
         </div>
-
-      </section>
+  </section>
       
 
-      <!--Jäsenyys-->
-      <section id="jasenyys">
-        <div class="container-fluid mb-5 mt-5 pb-5 pt-5">
-          <div class="bg-dark text-white text-center">
-            <h1 class="display-2">Jäsenyys</h1>
-            <p>
-              Meillä Solar Fitness:sillä voit valita jäsenyyden omaan
-              aikatauluusi sopivaksi. Oletpa sitten vasta-alkaja tai kokenut
-              treenaaja meidän jäsenyysvaihtoehdoista löytyy varmasti jokaiselle
-              jotain. Meillä voit tulla kokeilemaan treenaamista vastaanoton
-              aukiolojen aikana. Uskomme, että tällöin voimme luoda parhaimman
-              asikaskokemuksen kuntosaleillamme.
-            </p>
-            <p class="mt-5 display-5">Jäsenyytemme:</p>
+  <!--Jäsenyys kuvattuna yleisesti-->
+
+  <section id="jasenyys">
+      <div class="container-fluid mb-5 mt-5 pb-5 pt-5">
+        <div class="bg-dark text-white text-center">
+          <h1 class="display-2">Jäsenyys</h1>
+          <p>
+            Meillä Solar Fitness:sillä voit valita jäsenyyden omaan
+            aikatauluusi sopivaksi. Oletpa sitten vasta-alkaja tai kokenut
+            treenaaja meidän jäsenyysvaihtoehdoista löytyy varmasti jokaiselle
+            jotain. Meillä voit tulla kokeilemaan treenaamista vastaanoton
+            aukiolojen aikana. Uskomme, että tällöin voimme luoda parhaimman
+            asikaskokemuksen kuntosaleillamme.
+          </p>
+          <p class="mt-5 display-5">Jäsenyytemme:</p>
+        </div>
+      </div>
+  </section>
+
+  <!--Card / eri jäsenyydet kortteina-->
+
+  <section>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header bg-warning">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseOne"
+              >Pronssi</a>
+            </div>
+            <div
+              id="collapseOne"
+              class="collapse show bg-basic text-dark"
+              data-bs-parent="#accordion">
+              <div class="card-body ">
+                Pronssi -jäsennyydellä saat pääsyn yhteen kuntokeskukseen
+                aikavälillä 05-22. Pakettiin kuuluu myös yksi tapaamiskerta
+                personal-trainerin kanssa.
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+              <a
+                class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">Hopea</a>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse bg-basic text-dark"
+              data-bs-parent="#accordion">
+              <div class="card-body"> Hopea -tason jäsenyydellä saat pääsyn yhteen kuntosaliin 24/7. Paketti sisältää myös kolme sovittua tapaamista personal-trainerin kanssa.
+              </div>
+            </div>
+          </div>
+        <div class="card">
+            <div class="card-header bg-warning">
+              <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree"> Kulta </a>
+            </div>
+            <div
+              id="collapseThree" class="collapse bg-basic text-dark" data-bs-parent="#accordion">
+              <div class="card-body">
+                Kulta -tason jäsenyydellä saat pääsyn kaikkiin
+                kuntokeskuksiimme 24/7. Paketti sisältää myös viisi tapaamista
+                personal-trainerin kanssa ja henkilökohtaisen
+                ravintokatsauksen.
+              </div>
+            </div>
           </div>
         </div>
-          <!--Card-->
+  </section>
 
-          <div id="accordion">
-            <div class="card">
-              <div class="card-header bg-warning">
-                <a
-                  class="collapsed btn"
-                  data-bs-toggle="collapse"
-                  href="#collapseOne"
-                >
-                  Pronssi
-                </a>
-              </div>
-              <div
-                id="collapseOne"
-                class="collapse show bg-basic text-dark"
-                data-bs-parent="#accordion"
-              >
-                <div class="card-body ">
-                  Pronssi -jäsennyydellä saat pääsyn yhteen kuntokeskukseen
-                  aikavälillä 05-22. Pakettiin kuuluu myös yksi tapaamiskerta
-                  personal-trainerin kanssa.
-                </div>
-              </div>
-            </div>
+  <!--Kuntokeskukset, yleinen esittely keskuksista-->
 
-            <div class="card">
-              <div class="card-header bg-warning">
-                <a
-                  class="collapsed btn"
-                  data-bs-toggle="collapse"
-                  href="#collapseTwo"
-                >
-                  Hopea
-                </a>
-              </div>
-              <div
-                id="collapseTwo"
-                class="collapse bg-basic text-dark"
-                data-bs-parent="#accordion"
-              >
-                <div class="card-body">
-                  Hopea -tason jäsenyydellä saat pääsyn yhteen kuntosaliin 24/7.
-                  Paketti sisältää myös kolme sovittua tapaamista
-                  personal-trainerin kanssa.
-                </div>
-              </div>
-            </div>
-
-            <div class="card">
-              <div class="card-header bg-warning">
-                <a
-                  class="collapsed btn"
-                  data-bs-toggle="collapse"
-                  href="#collapseThree"
-                >
-                  Kulta
-                </a>
-              </div>
-              <div
-                id="collapseThree"
-                class="collapse bg-basic text-dark"
-                data-bs-parent="#accordion"
-              >
-                <div class="card-body">
-                  Kulta -tason jäsenyydellä saat pääsyn kaikkiin
-                  kuntokeskuksiimme 24/7. Paketti sisältää myös viisi tapaamista
-                  personal-trainerin kanssa ja henkilökohtaisen
-                  ravintokatsauksen.
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-    </section>
-
-  
-    <!--Kuntokeskukset-->
-
-    <section id="keskukset">
+  <section id="keskukset">
       <div class="container-fluid bg-dark text-white mb-5 mt-5 pb-5 pt-5">
         <div class="container-fluid bg-dark text-white">
           <div class="mt-4 p-5 bg-dark text-white">
@@ -214,9 +187,11 @@
           </div>
         </div>
       </div>
+  </section>
 
-    <!--Jumbotron-->
-
+  <!--Jumbotron, kuvaukset kuntokeskuksista-->
+    
+  <section>
       <div class="container-fluid mt-4 p-5 bg-warning text-dark text-center Jumbotron">
             <div>
               <h1>Helsinki</h1>
@@ -237,24 +212,22 @@
                 viimeisimmillä uutuuksilla.</p>
             </div>
         </div>
+  </section>
 
-
-    </section>
+  <!--Karuselli-->
 
   <section>
-
-    <!--Karuselli-->
-
           <div id="karuselli" class="carousel slide mb-5 mt-5" data-bs-ride="carousel">
 
-            <!-- Painikkeet-->
+  <!-- Painikkeet-->
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#karuselli" data-bs-slide-to="0" class="active"></button>
               <button type="button" data-bs-target="#karuselli" data-bs-slide-to="1"></button>
               <button type="button" data-bs-target="#karuselli" data-bs-slide-to="2"></button>
             </div>
             
-            <!-- Kuvien slideshow-->
+  <!-- Kuvien slideshow-->
+
             <div class="carousel-inner img-thumbnail">
               <div class="carousel-item active">
                 <img src="Kuntosali\keskukset\Photo by cottonbro studio httpswww.pexels.comphotoa-dumbbell-on-the-floor-7690454.jpg" alt="Los Angeles" class="d-block img-fluid" style="width:100%">
@@ -279,46 +252,42 @@
               </div>
             </div>
             
-            <!-- painnikkeiden ohjaukset -->
+  <!-- painnikkeiden ohjaukset -->
+
             <button class="carousel-control-prev" type="button" data-bs-target="#karuselli" data-bs-slide="prev">
               <span class="carousel-control-prev-icon"></span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#karuselli" data-bs-slide="next">
               <span class="carousel-control-next-icon"></span>
             </button>
-          </div>
-          
+          </div>  
+  </section>
 
-        </section>
-
-
-
-            <!--Jumbotron-->
-            <!--Asiakaspalvelumme-->
-
-        <section id="aspalvelu">
+  <!--Jumbotron, asiakaspalvelu-->
+            
+  <section id="aspalvelu">
             <div class="mt-4 p-5 bg-dark text-white text-center ">
               <h1 class="display-2">Asiakaspalvelumme</h1>
-              <p>
+                <p>
                 Alta löydät meidän kuntokeskuksiemme valmentajat ja
                 asiakaspalvelijat, jotka vastaavat mielellään teidän kysymykyksiinne. Olkaa rohkeasti yhteydessä heihin!
-              </p>
+                </p>
             </div>
-
-          </section>
+  </section>
     
 
-            <!--Cards-->
-            <!--Henkilöprofiilit-->
+  <!--Cards / Henkilöprofiilit-->
+          
 
-        <section>
-            <style>
-              .card-img-top {
-                height: 85%; /* Set your desired height */
-                object-fit: cover; /* Ensures the image covers the specified height and width */
-              }
-            </style>
-            
+  <section>
+          <style>
+            .card-img-top {
+              height: 85%; /* Set your desired height */
+              object-fit: cover; /* Ensures the image covers the specified height and width */
+            }
+          </style>
+
+  <!--Kortti1-->
 
             <div class="container-fluid text-white mb-5 mt-5">
               <div class="row">
@@ -357,6 +326,9 @@
                     </div>
                   </div>
                 </div>
+    
+  <!--Kortti2-->
+
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
                   <div class="card" style="width: 400px">
                     <img
@@ -394,6 +366,9 @@
                     </div>
                   </div>
                 </div>
+
+  <!--Kortti3-->
+
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
                   <div class="card" style="width: 400px">
                     <img
@@ -424,6 +399,9 @@
                     </div>
                   </div>
                 </div>
+        
+  <!--Kortti4-->
+
                 <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center">
                   <div class="card" style="width: 400px">
                     <img
@@ -462,24 +440,24 @@
               </div>
             </div>
 
-        </section>
-          <!--Jumbotron-->
-          <!--Yhteystiedot-->
-
-          <section id="yhteystiedot">
+  </section>
+        
+  <!--Jumbotron / Yhteystiedot salille-->
+        
+  <section id="yhteystiedot">
           <div class="bg-warning text-dark text-center pb-5 pt-5 mt-5 mb-5">
             <h1 class="display-2">Yhteystiedot</h1>
-            <p>
-              Alta löydät kuntokeskuksien aukioloajat sekä vastaanottojen
-              päivystysajat
-            </p>
+              <p>
+                Alta löydät kuntokeskuksien aukioloajat sekä vastaanottojen
+                päivystysajat
+              </p>
           </div>
 
-        </section>
+  </section>
 
-          <!--Table (Aukiolo) -->
+  <!--Table / Taulukko, keskus, osoite, aukiolo -->
 
-        <section>
+  <section>
           <div class="container mt-3 bg-dark text-white text-center p-5">
             <h1>Kuntokeskukset</h1>
             <table class="table table-dark table-hover">
@@ -509,10 +487,11 @@
               </tbody>
             </table>
 
-        </section>
-          <!--Table (yhteystiedot) -->
+  </section>
 
-        <section>
+  <!--Table / taulukko vastaanoton aukiolot -->
+
+  <section>
           <div class="container mt-3 bg-dark text-white text-center p-5">
             <h1>Vastaanoton aukiolot</h1>
             <table class="table table-dark table-hover">
@@ -532,27 +511,27 @@
               </tbody>
             </table>
           </div>
+  </section>
 
-      
-        </section>
-
-        <section>
+  <!--Otsikko / keskuksen numerovaihde-->
+  
+  <section>
           <h1 class="text-white text-center mt-5 mb-5 display-5">Vaihteen numero: 000 123 456 </h1>
-        </section>
+  </section>
 
-          <!--Jumbotron-->
+  <!--Jumbotron / kysyttävää-->
 
-      <section>
+  <section>
           <div class="mt-4 p-5 bg-warning text-dark text-center">
             <h1 class="display-2">Kysyttävää?</h1>
             <p>Laita meille sähköpostia!</p>
           </div>
 
-        </section>
-          <!--Form-->
-          <!--YhteydenottoLomake-->
+  </section>
 
-    <section>
+  <!--Form / yhteydenottolomake, lomake ei toimi, koska en tässä harjoituksessa toteuta lomakkeen taustalla olevia ominaisuuksia. Lomake on lisätty vain esteettisen syyn takia. -->
+          
+  <section>
       <div class="container mt-5 text-white">
         <h2>Laita meille viestiä!</h2>
       <form action="/action_page.php">
@@ -569,10 +548,9 @@
           <textarea class="form-control" rows="5" id="comment" name="text"></textarea>
         </div>
         <button type="submit" class="btn btn-warning">Lähetä</button>
-      
       </form>
       </div>
-    </section>
+  </section>
 
     </main>
   </body>
